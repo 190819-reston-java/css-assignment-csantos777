@@ -1,5 +1,9 @@
-body {
+main {
     background-color: antiquewhite;
+       width: 500px;
+       height :650px;
+   	border: 5px solid;
+   	border-color: firebrick;
 }
 
 .important {
@@ -8,8 +12,16 @@ body {
     text-decoration-color: black;
 }
 
+h1 {
+    position: relative;
+    right: -10px;
+}
+
 #text {
-    border: 10px dashed;
+    position: relative;
+    right: -10px;
+    top: 10px;
+    border: 7px dashed;
     border-color: orange;
     overflow: auto;
     width: 400px;
@@ -19,7 +31,10 @@ body {
 }
 
 .picture {
-    border: 10px solid;
+    position: relative;
+    right: -10px;
+
+    border: 7px solid;
     border-color:orange;
 }
 
