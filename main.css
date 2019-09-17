@@ -1,0 +1,25 @@
+body {
+    background-color: antiquewhite;
+}
+
+.important {
+    text-decoration: underline;
+    font-weight: bold;
+    text-decoration-color: black;
+}
+
+#text {
+    border: 10px dashed;
+    border-color: orange;
+    overflow: auto;
+    width: 400px;
+    height:200px;
+    padding: 30px;
+    background-color:yellow;
+}
+
+.picture {
+    border: 10px solid;
+    border-color:orange;
+}
+
